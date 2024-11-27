@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gyan {
+    background-image: url('./components/Illustration.jpeg'); /* Adjust the path accordingly */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Adjust height as necessary */
+    opacity: 0.7;
+    
+  }
+
+  .para {
+    background-image: url('./components/Prob.jpeg'); /* Adjust the path accordingly */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Adjust height as necessary */
+    opacity: 0.3;
+    overflow: hidden;
+
+    
+}
+
+.ques{
+  background-image: url();
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  height: 100vh; /* Adjust height as necessary */
+  
+  overflow: hidden;
+  
+}
+
+.inner{
+  
+}
